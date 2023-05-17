@@ -1,0 +1,60 @@
+body{
+    background-color: lightcyan;
+    color: black;
+    font-family: verdana;
+    font-size: 18px;
+}
+input[type="text"], input[type="email"], textarea, button
+{
+    display: block;
+    margin: 15px 15px;
+    width: 500px;
+    box-sizing: border-box;
+    border-radius: 4px; box-shadow: inset 2px 2px 5px darkcyan;
+}
+textarea{
+    height: 100px;
+    padding: 5px 4px;
+}
+button:active{
+    background-color: darkcyan;
+    color: black;
+    border-radius: 4px; 
+    box-shadow: inset 2px 2px 5px gray;
+}
+header{
+    padding: 5px;
+}
+footer{
+    padding: 5px;
+}
+h1{
+    color: darkcyan;
+}
+#speciaal{
+    color: palevioletred;
+}
+table{
+    border-collapse: collapse;
+    width: 1520px;
+}
+td, th{
+    padding: 20px 15px;
+    background-color: darkcyan;
+    text-align: center;
+}
+#special{
+    background-color: palevioletred;
+}
+a{
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    color: black;
+    border-left: 2px solid palevioletred;
+    border-right: 2px solid palevioletred;
+    background-color: pink;
+}
+
